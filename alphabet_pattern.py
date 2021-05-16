@@ -1,5 +1,5 @@
-"""alphabets.py: This program transforms the word entered by a user and prints it
-as a star pattern
+"""alphabet_pattern.py: This program transforms the word entered by a user and prints it
+as an alphabet pattern
 
 License:
     MIT License
@@ -87,7 +87,7 @@ try:
             if number < 0:
                 merge_items += ' ' * abs(number)
             else:
-                merge_items += '*' * number
+                merge_items += 'X' * number
 
         print(merge_items)
 
